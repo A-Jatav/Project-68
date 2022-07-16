@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+#solarsys{
+    width: 1500px;
+    height: 650px;
+}
+.listitem{
+    font-size: 50px;
+    color: rgb(215, 140, 43);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ul{
+    position: fixed;
+}
+.line{
+    margin: 8px auto;
+    height: 6px;
+    width: 150px;
+    background-color: black;
+}
+.pics{
+    height: 200px;
+    width: 200px;
+}
+.pic{
+    width: 400px;
+    height: 200px;
+}
+p{
+    color: black;
+}
+.carousel-inner{
+    padding-left: 40%;
+}

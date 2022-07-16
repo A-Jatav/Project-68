@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>Photo Gallery</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="stylesheetp68.css">
+    </head>
+    <body>
+        <ul>
+            <li class="listitem"><a href="#home">Home</a></li>
+            <li class="listitem"><a href="#gridview">Grid View</a></li>
+            <li class="listitem"><a href="#slideview">Slide View</a></li>
+        </ul>
+        <section id="home">
+            <h1>Home</h1>
+            <div class="line"></div>
+            <img id="solarsys" src="solarsys.jpeg" class="img-responsive">
+        </section>
+        <section id="gridview">
+            <h1>Grid View</h1>
+            <div class="line"></div>
+            <div class="row">
+                <img src="mercury.jpg" class="pics" class="img-responsive">
+                <img src="venus.jpg" class="pics" class="img-responsive">
+                <img src="earth.jpg" class="pics" class="img-responsive">
+                <img src="mars.jpg" class="pics" class="img-responsive">
+            </div>
+            <br>
+            <div class="row">
+                <img src="jupiter.webp" class="pics" class="img-responsive">
+                <img src="saturn.webp" class="pics" class="img-responsive">
+                <img src="uranus.webp" class="pics" class="img-responsive">
+                <img src="neptune.webp" class="pics" class="img-responsive">
+            </div>
+        </section>
+        <section id="slideview">
+            <h1>Slide View</h1>
+            <div class="line"></div>
+            <div id="myCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="mercury.jpg" class="pic" class="img-responsive">
+                        <div class="carousel-caption">
+                            <p>Mercury</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="venus.jpg" class="pic" class="img-responsive">
+                        <br>
+                        <div class="carousel-caption">
+                            <p>Venus</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="earth.jpg" class="pic" class="img-responsive">
+                        <br>
+                        <div class="carousel-caption">
+                            <p>Earth</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="mars.jpg" class="pic" class="img-responsive">
+                        <br>
+                        <div class="carousel-caption">
+                            <p>Mars</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="jupiter.webp" class="pic" class="img-responsive">
+                        <br>
+                        <div class="carousel-caption">
+                            <p>Jupiter</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="saturn.webp" class="pic" class="img-responsive">
+                        <br>
+                        <div class="carousel-caption">
+                            <p>Saturn</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="uranus.webp" class="pic" class="img-responsive">
+                        <br>
+                        <div class="carousel-caption">
+                                <p>Uranus</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="neptune.webp" class="pic" class="img-responsive">
+                        <div class="carousel-caption">
+                            <p>Neptune</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </section>
+    </body>
+</html>
